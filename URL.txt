@@ -1,0 +1,63 @@
+JSDoc 3 is an API documentation generator for JavaScript
+https://jsdoc.app/
+--------------------------------
+Ошибки:
+------------------------------------------
+Когда создается min версия javascript 
+Error: Error transforming bundle with 'uglify' plugin: In strict mode code, functions can only be declared at top level or immediately within another function.
+Ошибка: Ошибка преобразования пакета с помощью плагина 'uglify': В коде строгого режима функции могут быть объявлены только на верхнем уровне или непосредственно в другой функции.
+
+Другими словами для создания минимальной версии javascript файла нельза засовывать тело функции внутри другой функции внутри фигурных скобок
+Например:
+'use strict';
+
+function some() {
+
+    function okay() {
+    }
+
+    let x = 1;
+
+    function no_problem() {
+    }
+
+    if (x == 1) {
+
+        function BOOM() {   // <- wrong!
+        }
+    }
+}
+https://stackoverflow.com/questions/24573061/uncaught-syntaxerror-in-strict-mode-code-functions-can-only-be-declared-at-top
+
+Надо так:
+'use strict';
+
+function some() {
+
+    function okay() {
+    }
+
+    let x = 1;
+
+    function no_problem() {
+    }
+
+    function BOOM() {   // хорошо
+    }
+
+    if (x == 1) {
+
+    }
+}
+
+-----------------------------------------------------
+Когда создается min версия javascript 
+Error: Error transforming bundle with 'uglify' plugin: Unexpected token: name «PlayController», expected: punc «;»
+Нельзя ставить export перед class:
+
+export class PlayController extends controllers.CustomController{}
+
+надо так
+
+class PlayController extends controllers.CustomController{}
+

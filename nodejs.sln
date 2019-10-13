@@ -1,0 +1,165 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TreeElement", "TreeElementNodeJS\TreeElement.njsproj", "{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "loadScript", "loadScriptNodeJS\loadScript.njsproj", "{136A4AD1-F130-4712-91BB-338CB08A4562}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "loadFile", "loadFileNodeJS\loadFile.njsproj", "{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15BF1400-8386-405E-A8A7-39C1C888B044}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		URL.txt = URL.txt
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "cookie", "cookieNodeJS\cookie.njsproj", "{3FB97AD5-B359-48F4-A39B-212FBB31F459}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DropdownMenu", "DropdownMenu\DropdownMenu.njsproj", "{4E2A0475-95D9-43BC-A411-2B3749A95A76}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "controllerPlay", "controllerPlay\controllerPlay.njsproj", "{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "menuPlay", "menuPlay\menuPlay.njsproj", "{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "myThreejs", "myThreejs\myThreejs.njsproj", "{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threejs", "Threejs", "{FABF9381-3875-40E0-8162-0EBD8D840375}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\src\helpers\AxesHelper.js = ..\three.js\src\helpers\AxesHelper.js
+		..\three.js\src\math\MathBox.js = ..\three.js\src\math\MathBox.js
+		..\three.js\rollup.config.js = ..\three.js\rollup.config.js
+		..\three.js\src\objects\SpriteText.js = ..\three.js\src\objects\SpriteText.js
+		..\..\URL.txt = ..\..\URL.txt
+		..\three.js\examples\webgl_effects_stereo.html = ..\three.js\examples\webgl_effects_stereo.html
+		..\three.js\examples\webgl_geometry_convex.html = ..\three.js\examples\webgl_geometry_convex.html
+		..\three.js\examples\webgl_math.html = ..\three.js\examples\webgl_math.html
+		..\three.js\examples\webgl_raycaster_stereo.html = ..\three.js\examples\webgl_raycaster_stereo.html
+		..\three.js\examples\webgl_sprites_text.html = ..\three.js\examples\webgl_sprites_text.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsm", "jsm", "{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\examples\jsm\effects\StereoEffect.js = ..\three.js\examples\jsm\effects\StereoEffect.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\examples\js\effects\StereoEffect.js = ..\three.js\examples\js\effects\StereoEffect.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lang", "lang", "{FF588D0B-D10E-4C0F-B986-F3E7B864A57C}"
+	ProjectSection(SolutionItems) = preProject
+		lang\lang.js = lang\lang.js
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "commonNodeJS", "commonNodeJS\commonNodeJS.njsproj", "{04D7A29D-CBF2-4978-994E-C778F0CA9602}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "customController", "..\customController\customController\customController.njsproj", "{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "colorpicker", "colorpicker", "{0223DBEA-9314-4B40-8F04-CFF1C5F53A04}"
+	ProjectSection(SolutionItems) = preProject
+		colorpicker\colorpicker.css = colorpicker\colorpicker.css
+		colorpicker\colorpicker.js = colorpicker\colorpicker.js
+		colorpicker\index.js = colorpicker\index.js
+		colorpicker\licenseBanner.txt = colorpicker\licenseBanner.txt
+		colorpicker\package.json = colorpicker\package.json
+		colorpicker\README.md = colorpicker\README.md
+		colorpicker\rollup.config.js = colorpicker\rollup.config.js
+		colorpicker\rollup.config.min.js = colorpicker\rollup.config.min.js
+		colorpicker\URL.txt = colorpicker\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{C1F18924-FF9D-440D-923E-B44CE48E5C95}"
+	ProjectSection(SolutionItems) = preProject
+		colorpicker\Example\example.js = colorpicker\Example\example.js
+		colorpicker\Example\index.html = colorpicker\Example\index.html
+		colorpicker\Example\modular.html = colorpicker\Example\modular.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{239BA108-DA5E-408C-943B-80ACDC86A316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{A7F5106D-9319-4868-AB71-F48236F1BFD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{06F88B43-EE91-4E83-87D1-4459A52ED3B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\examples\js\libs\dat.gui.js = ..\three.js\examples\js\libs\dat.gui.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webgl-debug", "webgl-debug", "{0421419D-1009-480B-95D6-2E153D129FF1}"
+	ProjectSection(SolutionItems) = preProject
+		webgl-debug\webgl-debug\README.md = webgl-debug\webgl-debug\README.md
+		webgl-debug\URL.txt = webgl-debug\URL.txt
+		webgl-debug\webgl-debug.js = webgl-debug\webgl-debug.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{085F70ED-D7FB-445D-90C6-BB363A8F00E3}"
+	ProjectSection(SolutionItems) = preProject
+		webgl-debug\webgl-debug\build\webgl-debug.js = webgl-debug\webgl-debug\build\webgl-debug.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136A4AD1-F130-4712-91BB-338CB08A4562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136A4AD1-F130-4712-91BB-338CB08A4562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136A4AD1-F130-4712-91BB-338CB08A4562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136A4AD1-F130-4712-91BB-338CB08A4562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD} = {FABF9381-3875-40E0-8162-0EBD8D840375}
+		{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6} = {FABF9381-3875-40E0-8162-0EBD8D840375}
+		{FF588D0B-D10E-4C0F-B986-F3E7B864A57C} = {15BF1400-8386-405E-A8A7-39C1C888B044}
+		{C1F18924-FF9D-440D-923E-B44CE48E5C95} = {0223DBEA-9314-4B40-8F04-CFF1C5F53A04}
+		{239BA108-DA5E-408C-943B-80ACDC86A316} = {FABF9381-3875-40E0-8162-0EBD8D840375}
+		{A7F5106D-9319-4868-AB71-F48236F1BFD4} = {239BA108-DA5E-408C-943B-80ACDC86A316}
+		{06F88B43-EE91-4E83-87D1-4459A52ED3B3} = {A7F5106D-9319-4868-AB71-F48236F1BFD4}
+		{085F70ED-D7FB-445D-90C6-BB363A8F00E3} = {0421419D-1009-480B-95D6-2E153D129FF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CB737DF-F21F-4878-9745-4F9270D16472}
+	EndGlobalSection
+EndGlobal
