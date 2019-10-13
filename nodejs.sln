@@ -49,11 +49,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EC75C3C0-8D8D-
 		..\three.js\examples\js\effects\StereoEffect.js = ..\three.js\examples\js\effects\StereoEffect.js
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lang", "lang", "{FF588D0B-D10E-4C0F-B986-F3E7B864A57C}"
-	ProjectSection(SolutionItems) = preProject
-		lang\lang.js = lang\lang.js
-	EndProjectSection
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "commonNodeJS", "commonNodeJS\commonNodeJS.njsproj", "{04D7A29D-CBF2-4978-994E-C778F0CA9602}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "customController", "..\customController\customController\customController.njsproj", "{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}"
@@ -152,7 +147,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD} = {FABF9381-3875-40E0-8162-0EBD8D840375}
 		{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6} = {FABF9381-3875-40E0-8162-0EBD8D840375}
-		{FF588D0B-D10E-4C0F-B986-F3E7B864A57C} = {15BF1400-8386-405E-A8A7-39C1C888B044}
 		{C1F18924-FF9D-440D-923E-B44CE48E5C95} = {0223DBEA-9314-4B40-8F04-CFF1C5F53A04}
 		{239BA108-DA5E-408C-943B-80ACDC86A316} = {FABF9381-3875-40E0-8162-0EBD8D840375}
 		{A7F5106D-9319-4868-AB71-F48236F1BFD4} = {239BA108-DA5E-408C-943B-80ACDC86A316}
