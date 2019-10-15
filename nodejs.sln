@@ -3,45 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TreeElement", "TreeElementNodeJS\TreeElement.njsproj", "{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "loadScript", "loadScriptNodeJS\loadScript.njsproj", "{136A4AD1-F130-4712-91BB-338CB08A4562}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "loadFile", "loadFileNodeJS\loadFile.njsproj", "{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15BF1400-8386-405E-A8A7-39C1C888B044}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
 		URL.txt = URL.txt
 	EndProjectSection
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "cookie", "cookieNodeJS\cookie.njsproj", "{3FB97AD5-B359-48F4-A39B-212FBB31F459}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DropdownMenu", "DropdownMenu\DropdownMenu.njsproj", "{4E2A0475-95D9-43BC-A411-2B3749A95A76}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "controllerPlay", "controllerPlay\controllerPlay.njsproj", "{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "menuPlay", "menuPlay\menuPlay.njsproj", "{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "myThreejs", "myThreejs\myThreejs.njsproj", "{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threejs", "Threejs", "{FABF9381-3875-40E0-8162-0EBD8D840375}"
 	ProjectSection(SolutionItems) = preProject
-		..\three.js\src\helpers\AxesHelper.js = ..\three.js\src\helpers\AxesHelper.js
-		..\three.js\src\math\MathBox.js = ..\three.js\src\math\MathBox.js
-		..\three.js\rollup.config.js = ..\three.js\rollup.config.js
-		..\three.js\src\objects\SpriteText.js = ..\three.js\src\objects\SpriteText.js
+		..\three.js\dev\src\helpers\AxesHelper.js = ..\three.js\dev\src\helpers\AxesHelper.js
+		..\three.js\dev\LICENSE = ..\three.js\dev\LICENSE
+		..\three.js\dev\src\math\MathBox.js = ..\three.js\dev\src\math\MathBox.js
+		..\three.js\dev\package.json = ..\three.js\dev\package.json
+		..\three.js\dev\README.md = ..\three.js\dev\README.md
+		..\three.js\dev\rollup.config.js = ..\three.js\dev\rollup.config.js
+		..\three.js\dev\src\objects\SpriteText.js = ..\three.js\dev\src\objects\SpriteText.js
 		..\..\URL.txt = ..\..\URL.txt
-		..\three.js\examples\webgl_effects_stereo.html = ..\three.js\examples\webgl_effects_stereo.html
-		..\three.js\examples\webgl_geometry_convex.html = ..\three.js\examples\webgl_geometry_convex.html
-		..\three.js\examples\webgl_math.html = ..\three.js\examples\webgl_math.html
-		..\three.js\examples\webgl_raycaster_stereo.html = ..\three.js\examples\webgl_raycaster_stereo.html
-		..\three.js\examples\webgl_sprites_text.html = ..\three.js\examples\webgl_sprites_text.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsm", "jsm", "{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD}"
 	ProjectSection(SolutionItems) = preProject
-		..\three.js\examples\jsm\effects\StereoEffect.js = ..\three.js\examples\jsm\effects\StereoEffect.js
+		..\three.js\dev\examples\jsm\effects\StereoEffect.js = ..\three.js\dev\examples\jsm\effects\StereoEffect.js
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6}"
@@ -49,31 +31,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EC75C3C0-8D8D-
 		..\three.js\examples\js\effects\StereoEffect.js = ..\three.js\examples\js\effects\StereoEffect.js
 	EndProjectSection
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "commonNodeJS", "commonNodeJS\commonNodeJS.njsproj", "{04D7A29D-CBF2-4978-994E-C778F0CA9602}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "customController", "..\customController\customController\customController.njsproj", "{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "colorpicker", "colorpicker", "{0223DBEA-9314-4B40-8F04-CFF1C5F53A04}"
 	ProjectSection(SolutionItems) = preProject
-		colorpicker\colorpicker.css = colorpicker\colorpicker.css
-		colorpicker\colorpicker.js = colorpicker\colorpicker.js
-		colorpicker\index.js = colorpicker\index.js
-		colorpicker\licenseBanner.txt = colorpicker\licenseBanner.txt
-		colorpicker\package.json = colorpicker\package.json
-		colorpicker\README.md = colorpicker\README.md
-		colorpicker\rollup.config.js = colorpicker\rollup.config.js
-		colorpicker\rollup.config.min.js = colorpicker\rollup.config.min.js
-		colorpicker\URL.txt = colorpicker\URL.txt
+		..\colorpicker\master\.babelrc = ..\colorpicker\master\.babelrc
+		..\colorpicker\master\colorpicker.css = ..\colorpicker\master\colorpicker.css
+		..\colorpicker\master\colorpicker.js = ..\colorpicker\master\colorpicker.js
+		..\colorpicker\master\index.js = ..\colorpicker\master\index.js
+		..\colorpicker\master\licenseBanner.txt = ..\colorpicker\master\licenseBanner.txt
+		..\colorpicker\master\package.json = ..\colorpicker\master\package.json
+		..\colorpicker\master\README.md = ..\colorpicker\master\README.md
+		..\colorpicker\master\rollup.config.js = ..\colorpicker\master\rollup.config.js
+		..\colorpicker\master\rollup.config.min.js = ..\colorpicker\master\rollup.config.min.js
+		..\colorpicker\master\URL.txt = ..\colorpicker\master\URL.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{C1F18924-FF9D-440D-923E-B44CE48E5C95}"
 	ProjectSection(SolutionItems) = preProject
-		colorpicker\Example\example.js = colorpicker\Example\example.js
-		colorpicker\Example\index.html = colorpicker\Example\index.html
-		colorpicker\Example\modular.html = colorpicker\Example\modular.html
+		..\colorpicker\master\Example\example.js = ..\colorpicker\master\Example\example.js
+		..\colorpicker\master\Example\index.html = ..\colorpicker\master\Example\index.html
+		..\colorpicker\master\Example\modular.html = ..\colorpicker\master\Example\modular.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{239BA108-DA5E-408C-943B-80ACDC86A316}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\dev\examples\webgl_effects_stereo.html = ..\three.js\dev\examples\webgl_effects_stereo.html
+		..\three.js\dev\examples\webgl_geometry_convex.html = ..\three.js\dev\examples\webgl_geometry_convex.html
+		..\three.js\dev\examples\webgl_math.html = ..\three.js\dev\examples\webgl_math.html
+		..\three.js\dev\examples\webgl_raycaster_stereo.html = ..\three.js\dev\examples\webgl_raycaster_stereo.html
+		..\three.js\dev\examples\webgl_sprites_text.html = ..\three.js\dev\examples\webgl_sprites_text.html
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{A7F5106D-9319-4868-AB71-F48236F1BFD4}"
 EndProject
@@ -84,63 +70,240 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{06F88B43-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webgl-debug", "webgl-debug", "{0421419D-1009-480B-95D6-2E153D129FF1}"
 	ProjectSection(SolutionItems) = preProject
-		webgl-debug\webgl-debug\README.md = webgl-debug\webgl-debug\README.md
-		webgl-debug\URL.txt = webgl-debug\URL.txt
-		webgl-debug\webgl-debug.js = webgl-debug\webgl-debug.js
+		..\webgl-debug\webgl-debug\index.js = ..\webgl-debug\webgl-debug\index.js
+		..\webgl-debug\webgl-debug\LICENSE.md = ..\webgl-debug\webgl-debug\LICENSE.md
+		..\webgl-debug\webgl-debug\package.json = ..\webgl-debug\webgl-debug\package.json
+		..\webgl-debug\webgl-debug\README.md = ..\webgl-debug\webgl-debug\README.md
+		..\webgl-debug\URL.txt = ..\webgl-debug\URL.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{085F70ED-D7FB-445D-90C6-BB363A8F00E3}"
 	ProjectSection(SolutionItems) = preProject
-		webgl-debug\webgl-debug\build\webgl-debug.js = webgl-debug\webgl-debug\build\webgl-debug.js
+		..\webgl-debug\webgl-debug\build\webgl-debug.js = ..\webgl-debug\webgl-debug\build\webgl-debug.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controllerPlay", "controllerPlay", "{890184DD-7BB0-4096-AA52-C41EC408C416}"
+	ProjectSection(SolutionItems) = preProject
+		controllerPlay\master\.babelrc = controllerPlay\master\.babelrc
+		..\controllerPlay\master\controllerPlay.js = ..\controllerPlay\master\controllerPlay.js
+		..\controllerPlay\master\index.js = ..\controllerPlay\master\index.js
+		controllerPlay\master\licenseBanner.txt = controllerPlay\master\licenseBanner.txt
+		controllerPlay\master\package.json = controllerPlay\master\package.json
+		controllerPlay\master\README.md = controllerPlay\master\README.md
+		controllerPlay\master\rollup.config.js = controllerPlay\master\rollup.config.js
+		controllerPlay\master\rollup.config.min.js = controllerPlay\master\rollup.config.min.js
+		controllerPlay\master\URL.txt = controllerPlay\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{44926EC7-8F52-44FF-9F49-7108ACA4AE2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{B9EADEE5-2A51-41AF-9314-CAB3F6A7AE68}"
+	ProjectSection(SolutionItems) = preProject
+		controllerPlay\master\Examples\html\index - No THREE.html = controllerPlay\master\Examples\html\index - No THREE.html
+		controllerPlay\master\Examples\html\index - Play.html = controllerPlay\master\Examples\html\index - Play.html
+		controllerPlay\master\Examples\html\index - THREE.html = controllerPlay\master\Examples\html\index - THREE.html
+		..\controllerPlay\master\Examples\html\index.html = ..\controllerPlay\master\Examples\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myThreejs", "myThreejs", "{DC036934-C830-4900-A2A7-7AD7163265BC}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\.babelrc = ..\myThreejs\master\.babelrc
+		..\myThreejs\master\canvasContainer.html = ..\myThreejs\master\canvasContainer.html
+		..\myThreejs\master\index.js = ..\myThreejs\master\index.js
+		..\myThreejs\master\licenseBanner.txt = ..\myThreejs\master\licenseBanner.txt
+		..\myThreejs\master\myThreejs.js = ..\myThreejs\master\myThreejs.js
+		..\myThreejs\master\package.json = ..\myThreejs\master\package.json
+		..\myThreejs\master\player.js = ..\myThreejs\master\player.js
+		..\myThreejs\master\README.md = ..\myThreejs\master\README.md
+		..\myThreejs\master\rollup.config.js = ..\myThreejs\master\rollup.config.js
+		..\myThreejs\master\rollup.config.min.js = ..\myThreejs\master\rollup.config.min.js
+		..\myThreejs\master\URL.txt = ..\myThreejs\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{51A9FB20-00F6-49EA-BF5A-82395DA43E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{7044C186-2119-49B5-ADCF-52630EB45AD1}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\Examples\html\index.html = ..\myThreejs\master\Examples\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commonNodeJS", "commonNodeJS", "{2DFBF6BE-4FA0-40BE-A56E-CE7F8D87DCFB}"
+	ProjectSection(SolutionItems) = preProject
+		..\commonNodeJS\master\.babelrc = ..\commonNodeJS\master\.babelrc
+		..\commonNodeJS\master\AxesHelperGui.js = ..\commonNodeJS\master\AxesHelperGui.js
+		..\commonNodeJS\master\clearThree.js = ..\commonNodeJS\master\clearThree.js
+		..\commonNodeJS\master\dat.js = ..\commonNodeJS\master\dat.js
+		..\commonNodeJS\master\lang.js = ..\commonNodeJS\master\lang.js
+		..\commonNodeJS\master\OrbitControlsGui.js = ..\commonNodeJS\master\OrbitControlsGui.js
+		..\commonNodeJS\master\package.json = ..\commonNodeJS\master\package.json
+		..\commonNodeJS\master\PositionController.js = ..\commonNodeJS\master\PositionController.js
+		..\commonNodeJS\master\README.md = ..\commonNodeJS\master\README.md
+		..\commonNodeJS\master\ScaleController.js = ..\commonNodeJS\master\ScaleController.js
+		..\commonNodeJS\master\UpDownController.js = ..\commonNodeJS\master\UpDownController.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DropdownMenu", "DropdownMenu", "{63DBA435-15A5-4267-8CFC-6E462F095676}"
+	ProjectSection(SolutionItems) = preProject
+		..\DropdownMenu\master\index.js = ..\DropdownMenu\master\index.js
+		..\DropdownMenu\master\licenseBanner.txt = ..\DropdownMenu\master\licenseBanner.txt
+		..\DropdownMenu\master\package.json = ..\DropdownMenu\master\package.json
+		..\DropdownMenu\master\README.md = ..\DropdownMenu\master\README.md
+		..\DropdownMenu\master\rollup.config.js = ..\DropdownMenu\master\rollup.config.js
+		..\DropdownMenu\master\rollup.config.min.js = ..\DropdownMenu\master\rollup.config.min.js
+		..\DropdownMenu\master\URL.txt = ..\DropdownMenu\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "menuPlay", "menuPlay", "{9CE63C7F-5260-4F0A-A64D-7B1726DCF0BF}"
+	ProjectSection(SolutionItems) = preProject
+		..\menuPlay\master\.babelrc = ..\menuPlay\master\.babelrc
+		..\menuPlay\master\index.js = ..\menuPlay\master\index.js
+		..\menuPlay\master\licenseBanner.txt = ..\menuPlay\master\licenseBanner.txt
+		..\menuPlay\master\menuPlay.js = ..\menuPlay\master\menuPlay.js
+		..\menuPlay\master\package.json = ..\menuPlay\master\package.json
+		..\menuPlay\master\README.md = ..\menuPlay\master\README.md
+		..\menuPlay\master\rollup.config.js = ..\menuPlay\master\rollup.config.js
+		..\menuPlay\master\rollup.config.min.js = ..\menuPlay\master\rollup.config.min.js
+		..\menuPlay\master\URL.txt = ..\menuPlay\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "loadScriptNodeJS", "loadScriptNodeJS", "{C11489E3-FB31-4CEB-AD32-35B9511D71FA}"
+	ProjectSection(SolutionItems) = preProject
+		..\loadScriptNodeJS\master\.babelrc = ..\loadScriptNodeJS\master\.babelrc
+		..\loadScriptNodeJS\master\appendTo.js = ..\loadScriptNodeJS\master\appendTo.js
+		..\loadScriptNodeJS\master\index.html = ..\loadScriptNodeJS\master\index.html
+		..\loadScriptNodeJS\master\index.js = ..\loadScriptNodeJS\master\index.js
+		..\loadScriptNodeJS\master\JavaScript.js = ..\loadScriptNodeJS\master\JavaScript.js
+		..\loadScriptNodeJS\master\JavaScript1.js = ..\loadScriptNodeJS\master\JavaScript1.js
+		..\loadScriptNodeJS\master\JavaScript2.js = ..\loadScriptNodeJS\master\JavaScript2.js
+		..\loadScriptNodeJS\master\JavaScript3.js = ..\loadScriptNodeJS\master\JavaScript3.js
+		..\loadScriptNodeJS\master\licenseBanner.txt = ..\loadScriptNodeJS\master\licenseBanner.txt
+		..\loadScriptNodeJS\master\loadScript.js = ..\loadScriptNodeJS\master\loadScript.js
+		..\loadScriptNodeJS\master\package.json = ..\loadScriptNodeJS\master\package.json
+		..\loadScriptNodeJS\master\README.md = ..\loadScriptNodeJS\master\README.md
+		..\loadScriptNodeJS\master\rollup.config.js = ..\loadScriptNodeJS\master\rollup.config.js
+		..\loadScriptNodeJS\master\rollup.config.min.js = ..\loadScriptNodeJS\master\rollup.config.min.js
+		..\loadScriptNodeJS\master\sync.js = ..\loadScriptNodeJS\master\sync.js
+		..\loadScriptNodeJS\master\sync2.js = ..\loadScriptNodeJS\master\sync2.js
+		..\loadScriptNodeJS\master\URL.txt = ..\loadScriptNodeJS\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "loadFileNodeJS", "loadFileNodeJS", "{EA472625-E91E-499F-826C-D4C7D0098D47}"
+	ProjectSection(SolutionItems) = preProject
+		..\loadFileNodeJS\master\.babelrc = ..\loadFileNodeJS\master\.babelrc
+		..\loadFileNodeJS\master\element.html = ..\loadFileNodeJS\master\element.html
+		..\loadFileNodeJS\master\index.html = ..\loadFileNodeJS\master\index.html
+		..\loadFileNodeJS\master\index.js = ..\loadFileNodeJS\master\index.js
+		..\loadFileNodeJS\master\licenseBanner.txt = ..\loadFileNodeJS\master\licenseBanner.txt
+		..\loadFileNodeJS\master\loadFile.js = ..\loadFileNodeJS\master\loadFile.js
+		..\loadFileNodeJS\master\package.json = ..\loadFileNodeJS\master\package.json
+		..\loadFileNodeJS\master\README.md = ..\loadFileNodeJS\master\README.md
+		..\loadFileNodeJS\master\rollup.config.js = ..\loadFileNodeJS\master\rollup.config.js
+		..\loadFileNodeJS\master\rollup.config.min.js = ..\loadFileNodeJS\master\rollup.config.min.js
+		..\loadFileNodeJS\master\URL.txt = ..\loadFileNodeJS\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B16F0423-D6B6-4D03-9698-B85BBE9B1116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{4608948F-B551-422F-9A74-08F48BDD2A6F}"
+	ProjectSection(SolutionItems) = preProject
+		..\DropdownMenu\master\Examples\html\custom.css = ..\DropdownMenu\master\Examples\html\custom.css
+		..\DropdownMenu\master\Examples\html\index.html = ..\DropdownMenu\master\Examples\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{55C011AA-9126-4F51-A0B2-E36253E28908}"
+	ProjectSection(SolutionItems) = preProject
+		..\DropdownMenu\master\styles\gui.css = ..\DropdownMenu\master\styles\gui.css
+		..\DropdownMenu\master\styles\menu.css = ..\DropdownMenu\master\styles\menu.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorations", "Decorations", "{E74354F1-F348-476C-BAE8-CA114CBB9C78}"
+	ProjectSection(SolutionItems) = preProject
+		..\DropdownMenu\master\styles\Decorations\gradient.css = ..\DropdownMenu\master\styles\Decorations\gradient.css
+		..\DropdownMenu\master\styles\Decorations\transparent.css = ..\DropdownMenu\master\styles\Decorations\transparent.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dat.gui", "dat.gui", "{73DCEF37-2034-45B1-BEE5-3D52ADF4959A}"
+	ProjectSection(SolutionItems) = preProject
+		..\dat.gui\CustomController\.babelrc = ..\dat.gui\CustomController\.babelrc
+		..\dat.gui\CustomController\.gitignore = ..\dat.gui\CustomController\.gitignore
+		..\dat.gui\CustomController\API.md = ..\dat.gui\CustomController\API.md
+		..\dat.gui\CustomController\bower.json = ..\dat.gui\CustomController\bower.json
+		..\dat.gui\CustomController\CHANGELOG.md = ..\dat.gui\CustomController\CHANGELOG.md
+		..\dat.gui\CustomController\example.html = ..\dat.gui\CustomController\example.html
+		..\dat.gui\CustomController\LICENSE = ..\dat.gui\CustomController\LICENSE
+		..\dat.gui\CustomController\licenseBanner.txt = ..\dat.gui\CustomController\licenseBanner.txt
+		..\dat.gui\CustomController\package.json = ..\dat.gui\CustomController\package.json
+		..\dat.gui\CustomController\README.md = ..\dat.gui\CustomController\README.md
+		..\dat.gui\CustomController\rollup.config.js = ..\dat.gui\CustomController\rollup.config.js
+		..\dat.gui\CustomController\rollup.config.min.js = ..\dat.gui\CustomController\rollup.config.min.js
+		..\dat.gui\CustomController\URL.txt = ..\dat.gui\CustomController\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cookieNodeJS", "cookieNodeJS", "{57569E93-81CA-4E98-9D4E-24979485F7FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\cookieNodeJS\master\.babelrc = ..\cookieNodeJS\master\.babelrc
+		..\cookieNodeJS\master\cookie.js = ..\cookieNodeJS\master\cookie.js
+		..\cookieNodeJS\master\index.html = ..\cookieNodeJS\master\index.html
+		..\cookieNodeJS\master\index.js = ..\cookieNodeJS\master\index.js
+		..\cookieNodeJS\master\licenseBanner.txt = ..\cookieNodeJS\master\licenseBanner.txt
+		..\cookieNodeJS\master\package.json = ..\cookieNodeJS\master\package.json
+		..\cookieNodeJS\master\README.md = ..\cookieNodeJS\master\README.md
+		..\cookieNodeJS\master\rollup.config.js = ..\cookieNodeJS\master\rollup.config.js
+		..\cookieNodeJS\master\rollup.config.min.js = ..\cookieNodeJS\master\rollup.config.min.js
+		..\cookieNodeJS\master\URL.txt = ..\cookieNodeJS\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "customController", "customController", "{6C84673D-CB9E-478D-A938-72364942439A}"
+	ProjectSection(SolutionItems) = preProject
+		..\customController\customController\customControllers.js = ..\customController\customController\customControllers.js
+		..\customController\customController\index.js = ..\customController\customController\index.js
+		..\customController\customController\LICENSE = ..\customController\customController\LICENSE
+		..\customController\customController\licenseBanner.txt = ..\customController\customController\licenseBanner.txt
+		..\customController\customController\package.json = ..\customController\customController\package.json
+		..\customController\customController\README.md = ..\customController\customController\README.md
+		..\customController\customController\rollup.config.js = ..\customController\customController\rollup.config.js
+		..\customController\customController\rollup.config.min.js = ..\customController\customController\rollup.config.min.js
+		..\customController\customController\URL.txt = ..\customController\customController\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{71DBEE0A-A118-4EDA-98E6-9173245E608A}"
+	ProjectSection(SolutionItems) = preProject
+		..\customController\customController\Examples\webgl_custom_controller.html = ..\customController\customController\Examples\webgl_custom_controller.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeElementNodeJS", "TreeElementNodeJS", "{BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\index.js = ..\TreeElementNodeJS\index.js
+		..\TreeElementNodeJS\licenseBanner.txt = ..\TreeElementNodeJS\licenseBanner.txt
+		..\TreeElementNodeJS\myTreeView.js = ..\TreeElementNodeJS\myTreeView.js
+		..\TreeElementNodeJS\package.json = ..\TreeElementNodeJS\package.json
+		..\TreeElementNodeJS\README.md = ..\TreeElementNodeJS\README.md
+		..\TreeElementNodeJS\rollup.config.js = ..\TreeElementNodeJS\rollup.config.js
+		..\TreeElementNodeJS\rollup.config.min.js = ..\TreeElementNodeJS\rollup.config.min.js
+		..\TreeElementNodeJS\URL.txt = ..\TreeElementNodeJS\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A79C8BC5-A5F0-4311-83C6-19FE79480A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{EF156DA3-019C-4665-A086-09F7A848AB5B}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\Examples\html\branch1.html = ..\TreeElementNodeJS\Examples\html\branch1.html
+		..\TreeElementNodeJS\Examples\html\index.html = ..\TreeElementNodeJS\Examples\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module", "module", "{5161FA7C-4FD4-417E-A3BF-8ABB92E5B8DC}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\Examples\module\branch1.html = ..\TreeElementNodeJS\Examples\module\branch1.html
+		..\TreeElementNodeJS\Examples\module\index.html = ..\TreeElementNodeJS\Examples\module\index.html
+		..\TreeElementNodeJS\Examples\module\index.js = ..\TreeElementNodeJS\Examples\module\index.js
+		..\TreeElementNodeJS\Examples\module\licenseBanner.txt = ..\TreeElementNodeJS\Examples\module\licenseBanner.txt
+		..\TreeElementNodeJS\Examples\module\package.json = ..\TreeElementNodeJS\Examples\module\package.json
+		..\TreeElementNodeJS\Examples\module\README.md = ..\TreeElementNodeJS\Examples\module\README.md
+		..\TreeElementNodeJS\Examples\module\rollup.config.js = ..\TreeElementNodeJS\Examples\module\rollup.config.js
+		..\TreeElementNodeJS\Examples\module\URL.txt = ..\TreeElementNodeJS\Examples\module\URL.txt
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCBB7AD5-386C-408C-B836-FE6DC6E957DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{136A4AD1-F130-4712-91BB-338CB08A4562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{136A4AD1-F130-4712-91BB-338CB08A4562}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{136A4AD1-F130-4712-91BB-338CB08A4562}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{136A4AD1-F130-4712-91BB-338CB08A4562}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FCBC94B-44CB-407F-ADC0-F63BE14FEABF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FB97AD5-B359-48F4-A39B-212FBB31F459}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E2A0475-95D9-43BC-A411-2B3749A95A76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74DCF5F7-FE7D-4174-B9F5-EB9FB45ED0A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE981BD2-5F52-4633-8DF5-59F6D8FD0A11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81692AC5-DED3-490E-A1BE-4E4FEE50BD5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04D7A29D-CBF2-4978-994E-C778F0CA9602}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0DFE673-E9D5-49CA-A3CD-4E33847F875B}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -152,6 +315,18 @@ Global
 		{A7F5106D-9319-4868-AB71-F48236F1BFD4} = {239BA108-DA5E-408C-943B-80ACDC86A316}
 		{06F88B43-EE91-4E83-87D1-4459A52ED3B3} = {A7F5106D-9319-4868-AB71-F48236F1BFD4}
 		{085F70ED-D7FB-445D-90C6-BB363A8F00E3} = {0421419D-1009-480B-95D6-2E153D129FF1}
+		{44926EC7-8F52-44FF-9F49-7108ACA4AE2B} = {890184DD-7BB0-4096-AA52-C41EC408C416}
+		{B9EADEE5-2A51-41AF-9314-CAB3F6A7AE68} = {44926EC7-8F52-44FF-9F49-7108ACA4AE2B}
+		{51A9FB20-00F6-49EA-BF5A-82395DA43E6A} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{7044C186-2119-49B5-ADCF-52630EB45AD1} = {51A9FB20-00F6-49EA-BF5A-82395DA43E6A}
+		{B16F0423-D6B6-4D03-9698-B85BBE9B1116} = {63DBA435-15A5-4267-8CFC-6E462F095676}
+		{4608948F-B551-422F-9A74-08F48BDD2A6F} = {B16F0423-D6B6-4D03-9698-B85BBE9B1116}
+		{55C011AA-9126-4F51-A0B2-E36253E28908} = {63DBA435-15A5-4267-8CFC-6E462F095676}
+		{E74354F1-F348-476C-BAE8-CA114CBB9C78} = {55C011AA-9126-4F51-A0B2-E36253E28908}
+		{71DBEE0A-A118-4EDA-98E6-9173245E608A} = {6C84673D-CB9E-478D-A938-72364942439A}
+		{A79C8BC5-A5F0-4311-83C6-19FE79480A64} = {BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}
+		{EF156DA3-019C-4665-A086-09F7A848AB5B} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
+		{5161FA7C-4FD4-417E-A3BF-8ABB92E5B8DC} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CB737DF-F21F-4878-9745-4F9270D16472}
