@@ -26,11 +26,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsm", "jsm", "{760A7DBE-76C
 		..\three.js\dev\examples\jsm\effects\StereoEffect.js = ..\three.js\dev\examples\jsm\effects\StereoEffect.js
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6}"
-	ProjectSection(SolutionItems) = preProject
-		..\three.js\examples\js\effects\StereoEffect.js = ..\three.js\examples\js\effects\StereoEffect.js
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "colorpicker", "colorpicker", "{0223DBEA-9314-4B40-8F04-CFF1C5F53A04}"
 	ProjectSection(SolutionItems) = preProject
 		..\colorpicker\master\.babelrc = ..\colorpicker\master\.babelrc
@@ -62,6 +57,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{23
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{A7F5106D-9319-4868-AB71-F48236F1BFD4}"
+	ProjectSection(SolutionItems) = preProject
+		..\three.js\dev\examples\js\effects\StereoEffect.js = ..\three.js\dev\examples\js\effects\StereoEffect.js
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{06F88B43-EE91-4E83-87D1-4459A52ED3B3}"
 	ProjectSection(SolutionItems) = preProject
@@ -84,15 +82,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{085F70ED
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controllerPlay", "controllerPlay", "{890184DD-7BB0-4096-AA52-C41EC408C416}"
 	ProjectSection(SolutionItems) = preProject
-		controllerPlay\master\.babelrc = controllerPlay\master\.babelrc
+		..\controllerPlay\master\.babelrc = ..\controllerPlay\master\.babelrc
 		..\controllerPlay\master\controllerPlay.js = ..\controllerPlay\master\controllerPlay.js
 		..\controllerPlay\master\index.js = ..\controllerPlay\master\index.js
-		controllerPlay\master\licenseBanner.txt = controllerPlay\master\licenseBanner.txt
-		controllerPlay\master\package.json = controllerPlay\master\package.json
-		controllerPlay\master\README.md = controllerPlay\master\README.md
-		controllerPlay\master\rollup.config.js = controllerPlay\master\rollup.config.js
-		controllerPlay\master\rollup.config.min.js = controllerPlay\master\rollup.config.min.js
-		controllerPlay\master\URL.txt = controllerPlay\master\URL.txt
+		..\controllerPlay\master\licenseBanner.txt = ..\controllerPlay\master\licenseBanner.txt
+		..\controllerPlay\master\package.json = ..\controllerPlay\master\package.json
+		..\controllerPlay\master\README.md = ..\controllerPlay\master\README.md
+		..\controllerPlay\master\rollup.config.js = ..\controllerPlay\master\rollup.config.js
+		..\controllerPlay\master\rollup.config.min.js = ..\controllerPlay\master\rollup.config.min.js
+		..\controllerPlay\master\URL.txt = ..\controllerPlay\master\URL.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{44926EC7-8F52-44FF-9F49-7108ACA4AE2B}"
@@ -134,12 +132,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commonNodeJS", "commonNodeJ
 		..\commonNodeJS\master\clearThree.js = ..\commonNodeJS\master\clearThree.js
 		..\commonNodeJS\master\dat.js = ..\commonNodeJS\master\dat.js
 		..\commonNodeJS\master\lang.js = ..\commonNodeJS\master\lang.js
+		..\commonNodeJS\master\licenseBanner.txt = ..\commonNodeJS\master\licenseBanner.txt
 		..\commonNodeJS\master\OrbitControlsGui.js = ..\commonNodeJS\master\OrbitControlsGui.js
 		..\commonNodeJS\master\package.json = ..\commonNodeJS\master\package.json
 		..\commonNodeJS\master\PositionController.js = ..\commonNodeJS\master\PositionController.js
 		..\commonNodeJS\master\README.md = ..\commonNodeJS\master\README.md
+		..\commonNodeJS\master\rollup.config.js = ..\commonNodeJS\master\rollup.config.js
+		..\commonNodeJS\master\rollup.config.min.js = ..\commonNodeJS\master\rollup.config.min.js
 		..\commonNodeJS\master\ScaleController.js = ..\commonNodeJS\master\ScaleController.js
 		..\commonNodeJS\master\UpDownController.js = ..\commonNodeJS\master\UpDownController.js
+		..\commonNodeJS\master\URL.txt = ..\commonNodeJS\master\URL.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DropdownMenu", "DropdownMenu", "{63DBA435-15A5-4267-8CFC-6E462F095676}"
@@ -271,7 +273,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{71
 		..\customController\customController\Examples\webgl_custom_controller.html = ..\customController\customController\Examples\webgl_custom_controller.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeElementNodeJS", "TreeElementNodeJS", "{BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeElementNodeJS old", "TreeElementNodeJS old", "{BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}"
 	ProjectSection(SolutionItems) = preProject
 		..\TreeElementNodeJS\index.js = ..\TreeElementNodeJS\index.js
 		..\TreeElementNodeJS\licenseBanner.txt = ..\TreeElementNodeJS\licenseBanner.txt
@@ -303,13 +305,52 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module", "module", "{5161FA
 		..\TreeElementNodeJS\Examples\module\URL.txt = ..\TreeElementNodeJS\Examples\module\URL.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "textures", "textures", "{A7F7E74B-1958-4054-8836-1E9D88CCCA00}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\textures\point.png = ..\myThreejs\master\textures\point.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeElementNodeJS", "TreeElementNodeJS", "{1984DB59-27EA-4B41-AEF8-4BF91E195244}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\master\.gitignore = ..\TreeElementNodeJS\master\.gitignore
+		..\TreeElementNodeJS\master\index.js = ..\TreeElementNodeJS\master\index.js
+		..\TreeElementNodeJS\master\licenseBanner.txt = ..\TreeElementNodeJS\master\licenseBanner.txt
+		..\TreeElementNodeJS\master\myTreeView.js = ..\TreeElementNodeJS\master\myTreeView.js
+		..\TreeElementNodeJS\master\package-lock.json = ..\TreeElementNodeJS\master\package-lock.json
+		..\TreeElementNodeJS\master\package.json = ..\TreeElementNodeJS\master\package.json
+		..\TreeElementNodeJS\master\README.md = ..\TreeElementNodeJS\master\README.md
+		..\TreeElementNodeJS\master\rollup.config.js = ..\TreeElementNodeJS\master\rollup.config.js
+		..\TreeElementNodeJS\master\rollup.config.min.js = ..\TreeElementNodeJS\master\rollup.config.min.js
+		..\TreeElementNodeJS\master\URL.txt = ..\TreeElementNodeJS\master\URL.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{703E6FC9-9BD9-42E0-ABD9-499B245043DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{20204269-D267-49CA-80AE-D1DDC557E239}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\master\Examples\html\branch1.html = ..\TreeElementNodeJS\master\Examples\html\branch1.html
+		..\TreeElementNodeJS\master\Examples\html\index.html = ..\TreeElementNodeJS\master\Examples\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module", "module", "{1ED90DEF-F658-4943-8B1C-8CCB3207E3A6}"
+	ProjectSection(SolutionItems) = preProject
+		..\TreeElementNodeJS\master\Examples\module\branch1.html = ..\TreeElementNodeJS\master\Examples\module\branch1.html
+		..\TreeElementNodeJS\master\Examples\module\index.html = ..\TreeElementNodeJS\master\Examples\module\index.html
+		..\TreeElementNodeJS\master\Examples\module\index.js = ..\TreeElementNodeJS\master\Examples\module\index.js
+		..\TreeElementNodeJS\master\Examples\module\licenseBanner.txt = ..\TreeElementNodeJS\master\Examples\module\licenseBanner.txt
+		..\TreeElementNodeJS\master\Examples\module\package-lock.json = ..\TreeElementNodeJS\master\Examples\module\package-lock.json
+		..\TreeElementNodeJS\master\Examples\module\package.json = ..\TreeElementNodeJS\master\Examples\module\package.json
+		..\TreeElementNodeJS\master\Examples\module\README.md = ..\TreeElementNodeJS\master\Examples\module\README.md
+		..\TreeElementNodeJS\master\Examples\module\rollup.config.js = ..\TreeElementNodeJS\master\Examples\module\rollup.config.js
+		..\TreeElementNodeJS\master\Examples\module\URL.txt = ..\TreeElementNodeJS\master\Examples\module\URL.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD} = {FABF9381-3875-40E0-8162-0EBD8D840375}
-		{EC75C3C0-8D8D-4788-8669-E8EB90A8B5C6} = {FABF9381-3875-40E0-8162-0EBD8D840375}
+		{760A7DBE-76C1-44BC-BC29-F078FDEE7ADD} = {239BA108-DA5E-408C-943B-80ACDC86A316}
 		{C1F18924-FF9D-440D-923E-B44CE48E5C95} = {0223DBEA-9314-4B40-8F04-CFF1C5F53A04}
 		{239BA108-DA5E-408C-943B-80ACDC86A316} = {FABF9381-3875-40E0-8162-0EBD8D840375}
 		{A7F5106D-9319-4868-AB71-F48236F1BFD4} = {239BA108-DA5E-408C-943B-80ACDC86A316}
@@ -327,6 +368,10 @@ Global
 		{A79C8BC5-A5F0-4311-83C6-19FE79480A64} = {BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}
 		{EF156DA3-019C-4665-A086-09F7A848AB5B} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
 		{5161FA7C-4FD4-417E-A3BF-8ABB92E5B8DC} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
+		{A7F7E74B-1958-4054-8836-1E9D88CCCA00} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{703E6FC9-9BD9-42E0-ABD9-499B245043DF} = {1984DB59-27EA-4B41-AEF8-4BF91E195244}
+		{20204269-D267-49CA-80AE-D1DDC557E239} = {703E6FC9-9BD9-42E0-ABD9-499B245043DF}
+		{1ED90DEF-F658-4943-8B1C-8CCB3207E3A6} = {703E6FC9-9BD9-42E0-ABD9-499B245043DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CB737DF-F21F-4878-9745-4F9270D16472}

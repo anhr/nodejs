@@ -1,14 +1,17 @@
+п»їСЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ С„Р°Р№Р»РѕРІ РёР· Chrome DevTools
+https://developers.google.com/web/tools/chrome-devtools/workspaces
+-------------------------------------------------------
 JSDoc 3 is an API documentation generator for JavaScript
 https://jsdoc.app/
 --------------------------------
-Ошибки:
+РћС€РёР±РєРё:
 ------------------------------------------
-Когда создается min версия javascript 
+РљРѕРіРґР° СЃРѕР·РґР°РµС‚СЃСЏ min РІРµСЂСЃРёСЏ javascript 
 Error: Error transforming bundle with 'uglify' plugin: In strict mode code, functions can only be declared at top level or immediately within another function.
-Ошибка: Ошибка преобразования пакета с помощью плагина 'uglify': В коде строгого режима функции могут быть объявлены только на верхнем уровне или непосредственно в другой функции.
+РћС€РёР±РєР°: РћС€РёР±РєР° РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РїР°РєРµС‚Р° СЃ РїРѕРјРѕС‰СЊСЋ РїР»Р°РіРёРЅР° 'uglify': Р’ РєРѕРґРµ СЃС‚СЂРѕРіРѕРіРѕ СЂРµР¶РёРјР° С„СѓРЅРєС†РёРё РјРѕРіСѓС‚ Р±С‹С‚СЊ РѕР±СЉСЏРІР»РµРЅС‹ С‚РѕР»СЊРєРѕ РЅР° РІРµСЂС…РЅРµРј СѓСЂРѕРІРЅРµ РёР»Рё РЅРµРїРѕСЃСЂРµРґСЃС‚РІРµРЅРЅРѕ РІ РґСЂСѓРіРѕР№ С„СѓРЅРєС†РёРё.
 
-Другими словами для создания минимальной версии javascript файла нельза засовывать тело функции внутри другой функции внутри фигурных скобок
-Например:
+Р”СЂСѓРіРёРјРё СЃР»РѕРІР°РјРё РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РјРёРЅРёРјР°Р»СЊРЅРѕР№ РІРµСЂСЃРёРё javascript С„Р°Р№Р»Р° РЅРµР»СЊР·Р° Р·Р°СЃРѕРІС‹РІР°С‚СЊ С‚РµР»Рѕ С„СѓРЅРєС†РёРё РІРЅСѓС‚СЂРё РґСЂСѓРіРѕР№ С„СѓРЅРєС†РёРё РІРЅСѓС‚СЂРё С„РёРіСѓСЂРЅС‹С… СЃРєРѕР±РѕРє
+РќР°РїСЂРёРјРµСЂ:
 'use strict';
 
 function some() {
@@ -29,7 +32,7 @@ function some() {
 }
 https://stackoverflow.com/questions/24573061/uncaught-syntaxerror-in-strict-mode-code-functions-can-only-be-declared-at-top
 
-Надо так:
+РќР°РґРѕ С‚Р°Рє:
 'use strict';
 
 function some() {
@@ -42,7 +45,7 @@ function some() {
     function no_problem() {
     }
 
-    function BOOM() {   // хорошо
+    function BOOM() {   // С…РѕСЂРѕС€Рѕ
     }
 
     if (x == 1) {
@@ -51,13 +54,13 @@ function some() {
 }
 
 -----------------------------------------------------
-Когда создается min версия javascript 
-Error: Error transforming bundle with 'uglify' plugin: Unexpected token: name «PlayController», expected: punc «;»
-Нельзя ставить export перед class:
+РљРѕРіРґР° СЃРѕР·РґР°РµС‚СЃСЏ min РІРµСЂСЃРёСЏ javascript 
+Error: Error transforming bundle with 'uglify' plugin: Unexpected token: name В«PlayControllerВ», expected: punc В«;В»
+РќРµР»СЊР·СЏ СЃС‚Р°РІРёС‚СЊ export РїРµСЂРµРґ class:
 
 export class PlayController extends controllers.CustomController{}
 
-надо так
+РЅР°РґРѕ С‚Р°Рє
 
 class PlayController extends controllers.CustomController{}
 
