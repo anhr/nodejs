@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15BF1400-8386-405E-A8A7-39C1C888B044}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		three.js = three.js
 		URL.txt = URL.txt
 	EndProjectSection
 EndProject
@@ -15,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threejs", "Threejs", "{FABF
 		..\three.js\dev\LICENSE = ..\three.js\dev\LICENSE
 		..\three.js\dev\src\math\MathBox.js = ..\three.js\dev\src\math\MathBox.js
 		..\three.js\dev\package.json = ..\three.js\dev\package.json
+		..\three.js\dev\src\objects\Points.js = ..\three.js\dev\src\objects\Points.js
 		..\three.js\dev\README.md = ..\three.js\dev\README.md
 		..\three.js\dev\rollup.config.js = ..\three.js\dev\rollup.config.js
 		..\three.js\dev\src\objects\SpriteText.js = ..\three.js\dev\src\objects\SpriteText.js
@@ -106,8 +108,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myThreejs", "myThreejs", "{DC036934-C830-4900-A2A7-7AD7163265BC}"
 	ProjectSection(SolutionItems) = preProject
 		..\myThreejs\master\.babelrc = ..\myThreejs\master\.babelrc
+		..\myThreejs\master\.gitignore = ..\myThreejs\master\.gitignore
 		..\myThreejs\master\canvasContainer.html = ..\myThreejs\master\canvasContainer.html
+		..\myThreejs\master\CODE_OF_CONDUCT.md = ..\myThreejs\master\CODE_OF_CONDUCT.md
 		..\myThreejs\master\index.js = ..\myThreejs\master\index.js
+		..\myThreejs\master\LICENSE = ..\myThreejs\master\LICENSE
 		..\myThreejs\master\licenseBanner.txt = ..\myThreejs\master\licenseBanner.txt
 		..\myThreejs\master\myThreejs.js = ..\myThreejs\master\myThreejs.js
 		..\myThreejs\master\package.json = ..\myThreejs\master\package.json
@@ -128,9 +133,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commonNodeJS", "commonNodeJS", "{2DFBF6BE-4FA0-40BE-A56E-CE7F8D87DCFB}"
 	ProjectSection(SolutionItems) = preProject
 		..\commonNodeJS\master\.babelrc = ..\commonNodeJS\master\.babelrc
+		..\commonNodeJS\master\.gitignore = ..\commonNodeJS\master\.gitignore
 		..\commonNodeJS\master\AxesHelperGui.js = ..\commonNodeJS\master\AxesHelperGui.js
 		..\commonNodeJS\master\clearThree.js = ..\commonNodeJS\master\clearThree.js
 		..\commonNodeJS\master\dat.js = ..\commonNodeJS\master\dat.js
+		..\commonNodeJS\master\index.js = ..\commonNodeJS\master\index.js
 		..\commonNodeJS\master\lang.js = ..\commonNodeJS\master\lang.js
 		..\commonNodeJS\master\licenseBanner.txt = ..\commonNodeJS\master\licenseBanner.txt
 		..\commonNodeJS\master\OrbitControlsGui.js = ..\commonNodeJS\master\OrbitControlsGui.js
@@ -140,6 +147,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commonNodeJS", "commonNodeJ
 		..\commonNodeJS\master\rollup.config.js = ..\commonNodeJS\master\rollup.config.js
 		..\commonNodeJS\master\rollup.config.min.js = ..\commonNodeJS\master\rollup.config.min.js
 		..\commonNodeJS\master\ScaleController.js = ..\commonNodeJS\master\ScaleController.js
+		..\commonNodeJS\master\SizeOfObject.js = ..\commonNodeJS\master\SizeOfObject.js
 		..\commonNodeJS\master\UpDownController.js = ..\commonNodeJS\master\UpDownController.js
 		..\commonNodeJS\master\URL.txt = ..\commonNodeJS\master\URL.txt
 	EndProjectSection
@@ -271,38 +279,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{71DBEE0A-A118-4EDA-98E6-9173245E608A}"
 	ProjectSection(SolutionItems) = preProject
 		..\customController\customController\Examples\webgl_custom_controller.html = ..\customController\customController\Examples\webgl_custom_controller.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeElementNodeJS old", "TreeElementNodeJS old", "{BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}"
-	ProjectSection(SolutionItems) = preProject
-		..\TreeElementNodeJS\index.js = ..\TreeElementNodeJS\index.js
-		..\TreeElementNodeJS\licenseBanner.txt = ..\TreeElementNodeJS\licenseBanner.txt
-		..\TreeElementNodeJS\myTreeView.js = ..\TreeElementNodeJS\myTreeView.js
-		..\TreeElementNodeJS\package.json = ..\TreeElementNodeJS\package.json
-		..\TreeElementNodeJS\README.md = ..\TreeElementNodeJS\README.md
-		..\TreeElementNodeJS\rollup.config.js = ..\TreeElementNodeJS\rollup.config.js
-		..\TreeElementNodeJS\rollup.config.min.js = ..\TreeElementNodeJS\rollup.config.min.js
-		..\TreeElementNodeJS\URL.txt = ..\TreeElementNodeJS\URL.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A79C8BC5-A5F0-4311-83C6-19FE79480A64}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{EF156DA3-019C-4665-A086-09F7A848AB5B}"
-	ProjectSection(SolutionItems) = preProject
-		..\TreeElementNodeJS\Examples\html\branch1.html = ..\TreeElementNodeJS\Examples\html\branch1.html
-		..\TreeElementNodeJS\Examples\html\index.html = ..\TreeElementNodeJS\Examples\html\index.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module", "module", "{5161FA7C-4FD4-417E-A3BF-8ABB92E5B8DC}"
-	ProjectSection(SolutionItems) = preProject
-		..\TreeElementNodeJS\Examples\module\branch1.html = ..\TreeElementNodeJS\Examples\module\branch1.html
-		..\TreeElementNodeJS\Examples\module\index.html = ..\TreeElementNodeJS\Examples\module\index.html
-		..\TreeElementNodeJS\Examples\module\index.js = ..\TreeElementNodeJS\Examples\module\index.js
-		..\TreeElementNodeJS\Examples\module\licenseBanner.txt = ..\TreeElementNodeJS\Examples\module\licenseBanner.txt
-		..\TreeElementNodeJS\Examples\module\package.json = ..\TreeElementNodeJS\Examples\module\package.json
-		..\TreeElementNodeJS\Examples\module\README.md = ..\TreeElementNodeJS\Examples\module\README.md
-		..\TreeElementNodeJS\Examples\module\rollup.config.js = ..\TreeElementNodeJS\Examples\module\rollup.config.js
-		..\TreeElementNodeJS\Examples\module\URL.txt = ..\TreeElementNodeJS\Examples\module\URL.txt
+		..\three.js\dev\examples\webgl_custom_controller.html = ..\three.js\dev\examples\webgl_custom_controller.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "textures", "textures", "{A7F7E74B-1958-4054-8836-1E9D88CCCA00}"
@@ -345,6 +322,48 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module", "module", "{1ED90D
 		..\TreeElementNodeJS\master\Examples\module\URL.txt = ..\TreeElementNodeJS\master\Examples\module\URL.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{229652C5-26BA-42FB-8581-1A7EAA20850B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{61483539-D152-4B33-BE93-F1999DF992D4}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\.github\ISSUE_TEMPLATE\bug_report.md = ..\myThreejs\master\.github\ISSUE_TEMPLATE\bug_report.md
+		..\myThreejs\master\.github\ISSUE_TEMPLATE\custom.md = ..\myThreejs\master\.github\ISSUE_TEMPLATE\custom.md
+		..\myThreejs\master\.github\ISSUE_TEMPLATE\feature_request.md = ..\myThreejs\master\.github\ISSUE_TEMPLATE\feature_request.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myPoints", "myPoints", "{BFABEFE8-2D6F-4DFE-B547-A6110288357E}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\myPoints\fragment.c = ..\myThreejs\master\myPoints\fragment.c
+		..\myThreejs\master\myPoints\myPoints.js = ..\myThreejs\master\myPoints\myPoints.js
+		..\myThreejs\master\myPoints\vertex.c = ..\myThreejs\master\myPoints\vertex.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frustumPoints", "frustumPoints", "{3CA8C8F2-9A1A-49EA-ABED-7258CD28DF37}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\frustumPoints\fragment.c = ..\myThreejs\master\frustumPoints\fragment.c
+		..\myThreejs\master\frustumPoints\frustumPoints.js = ..\myThreejs\master\frustumPoints\frustumPoints.js
+		..\111\vertex.c = ..\111\vertex.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsm", "jsm", "{D1C810E6-AFE2-454F-BA21-2FA99D5EA67A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "effects", "effects", "{719FC213-D43A-4E3A-A406-8F2865337201}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\Examples\jsm\effects\StereoEffect.js = ..\myThreejs\master\Examples\jsm\effects\StereoEffect.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7036838-B760-4877-8984-326C9A609213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "objects", "objects", "{E6A3F385-27D0-4A1D-8FD4-B247EDCC2B2A}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\src\objects\SpriteText.js = ..\myThreejs\master\src\objects\SpriteText.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{EACF781A-E113-4702-8175-D0A6FEE2BEBB}"
+	ProjectSection(SolutionItems) = preProject
+		..\myThreejs\master\src\helpers\AxesHelper.js = ..\myThreejs\master\src\helpers\AxesHelper.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -365,13 +384,19 @@ Global
 		{55C011AA-9126-4F51-A0B2-E36253E28908} = {63DBA435-15A5-4267-8CFC-6E462F095676}
 		{E74354F1-F348-476C-BAE8-CA114CBB9C78} = {55C011AA-9126-4F51-A0B2-E36253E28908}
 		{71DBEE0A-A118-4EDA-98E6-9173245E608A} = {6C84673D-CB9E-478D-A938-72364942439A}
-		{A79C8BC5-A5F0-4311-83C6-19FE79480A64} = {BDD312F1-45E9-4BEE-929A-F4CD8DE3FB11}
-		{EF156DA3-019C-4665-A086-09F7A848AB5B} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
-		{5161FA7C-4FD4-417E-A3BF-8ABB92E5B8DC} = {A79C8BC5-A5F0-4311-83C6-19FE79480A64}
 		{A7F7E74B-1958-4054-8836-1E9D88CCCA00} = {DC036934-C830-4900-A2A7-7AD7163265BC}
 		{703E6FC9-9BD9-42E0-ABD9-499B245043DF} = {1984DB59-27EA-4B41-AEF8-4BF91E195244}
 		{20204269-D267-49CA-80AE-D1DDC557E239} = {703E6FC9-9BD9-42E0-ABD9-499B245043DF}
 		{1ED90DEF-F658-4943-8B1C-8CCB3207E3A6} = {703E6FC9-9BD9-42E0-ABD9-499B245043DF}
+		{229652C5-26BA-42FB-8581-1A7EAA20850B} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{61483539-D152-4B33-BE93-F1999DF992D4} = {229652C5-26BA-42FB-8581-1A7EAA20850B}
+		{BFABEFE8-2D6F-4DFE-B547-A6110288357E} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{3CA8C8F2-9A1A-49EA-ABED-7258CD28DF37} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{D1C810E6-AFE2-454F-BA21-2FA99D5EA67A} = {51A9FB20-00F6-49EA-BF5A-82395DA43E6A}
+		{719FC213-D43A-4E3A-A406-8F2865337201} = {D1C810E6-AFE2-454F-BA21-2FA99D5EA67A}
+		{C7036838-B760-4877-8984-326C9A609213} = {DC036934-C830-4900-A2A7-7AD7163265BC}
+		{E6A3F385-27D0-4A1D-8FD4-B247EDCC2B2A} = {C7036838-B760-4877-8984-326C9A609213}
+		{EACF781A-E113-4702-8175-D0A6FEE2BEBB} = {C7036838-B760-4877-8984-326C9A609213}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CB737DF-F21F-4878-9745-4F9270D16472}

@@ -4,6 +4,13 @@ https://developers.google.com/web/tools/chrome-devtools/workspaces
 JSDoc 3 is an API documentation generator for JavaScript
 https://jsdoc.app/
 --------------------------------
+Default uniforms and attributes: https://threejs.org/docs/#api/en/renderers/webgl/WebGLProgram
+OpenGL® 4.5 Reference Pages https://www.khronos.org/registry/OpenGL-Refpages/gl4/
+
+Расширения Chrome для отладки OpenGL Shading Language (GLSL):
+Google Chrome DevTools extension to live edit WebGL GLSL shaders https://github.com/spite/ShaderEditorExtension
+Spector.js https://github.com/BabylonJS/Spector.js
+-----------------------------------
 Ошибки:
 ------------------------------------------
 Когда создается min версия javascript 
