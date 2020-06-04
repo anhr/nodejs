@@ -47,7 +47,7 @@ Object.assign( THREE.Vector4.prototype, {
 		this.y *= v.y;
 		this.z *= v.z;
 //		this.w *= v.w || 1;
-//		if ( v.w !== undefined )
+		if ( v.w !== undefined )
 			this.w *= v.w;
 
 		return this;
@@ -56,6 +56,28 @@ Object.assign( THREE.Vector4.prototype, {
 
 } );
 */
+Object.assign( THREE.Vector4.prototype, {
+
+	add: function ( v, w ) {
+
+		if ( w !== undefined ) {
+
+			console.warn( 'THREE.Vector4: .add() now only accepts one argument. Use .addVectors( a, b ) instead.' );
+			return this.addVectors( v, w );
+
+		}
+
+		this.x += v.x;
+		this.y += v.y;
+		this.z += v.z;
+		if ( v.w !== undefined )
+			this.w += v.w;
+
+		return this;
+
+	},
+
+} );
 export {
 
 	THREE,
