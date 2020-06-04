@@ -120,6 +120,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myThreejs", "myThreejs", "{
 		..\myThreejs\master\README.md = ..\myThreejs\master\README.md
 		..\myThreejs\master\rollup.config.js = ..\myThreejs\master\rollup.config.js
 		..\myThreejs\master\rollup.config.min.js = ..\myThreejs\master\rollup.config.min.js
+		..\myThreejs\master\three.js = ..\myThreejs\master\three.js
 		..\myThreejs\master\URL.txt = ..\myThreejs\master\URL.txt
 	EndProjectSection
 EndProject
